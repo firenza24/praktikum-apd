@@ -14,13 +14,21 @@
 # print("Mencari angka pertama yang lebih besar dari 10...")
 # for n in angka:
 #     print(f"Sekarang memeriksa angka: {n}")
-#     if n > 10:
+#     if n > 10:++
 #         print(f"Angka {n} lebih besar dari 10, Perulangan berhenti.")
 #         break
 # print("Program selesai.")
 
-for i in range(1, 11):
-    if i % 2 != 0:
-        continue
-    print(f"Angka genap ditemukan: {i}")
-print("\nProgram selesai.")
+# for i in range(1, 11):
+#     if i % 2 != 0:
+#         continue
+#     print(f"Angka genap ditemukan: {i}")
+# print("\nProgram selesai.")
+
+while true:
+    print("MENU")
+    print("1. Fitur 1")
+    print("2. Fitur 2")
+    print("3. Fitur 3")
+    opsi = int(input("Masukkan opsi:"))
+    
