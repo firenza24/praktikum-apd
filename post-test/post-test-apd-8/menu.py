@@ -4,7 +4,6 @@ from akun import login, registrasi
 from hitung import hitung_total
 
 
-# ✅ Tampilkan daftar produk dalam tabel PrettyTable
 def tampilkan_produk():
     clear()
     print("============= DAFTAR PRODUK =============")
@@ -19,7 +18,6 @@ def tampilkan_produk():
     input("\nTekan Enter untuk kembali...")
 
 
-# ✅ Cari produk berdasarkan nama
 def cari_produk(nama_produk):
     for p in produk:
         if p["nama"].lower() == nama_produk.lower():
@@ -27,7 +25,6 @@ def cari_produk(nama_produk):
     return None
 
 
-# ✅ Tambah produk baru
 def tambah_produk():
     try:
         nama = input("Nama produk: ")
@@ -41,7 +38,6 @@ def tambah_produk():
         input("Tekan Enter untuk lanjut...")
 
 
-# ✅ Ubah produk yang sudah ada
 def ubah_produk():
     tampilkan_produk()
     try:
@@ -66,7 +62,6 @@ def ubah_produk():
         input("Tekan Enter untuk lanjut...")
 
 
-# ✅ Hapus produk
 def hapus_produk():
     tampilkan_produk()
     try:
@@ -81,7 +76,6 @@ def hapus_produk():
         input("Tekan Enter untuk lanjut...")
 
 
-# ✅ Menu untuk admin
 def menu_admin():
     while True:
         clear()
@@ -115,7 +109,6 @@ def menu_admin():
             input("Tekan Enter...")
 
 
-# ✅ Menu untuk user
 def menu_user():
     while True:
         clear()
@@ -163,7 +156,6 @@ def menu_user():
             input("Tekan Enter...")
 
 
-# ✅ Menu utama
 def menu_utama():
     clear()
     print("""
