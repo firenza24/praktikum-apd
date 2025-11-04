@@ -13,7 +13,6 @@ pengguna = [
 
 login_user = None
 
-# ✅ Tambahkan fungsi clear() di sini
 def clear():
     os.system("cls" if os.name == "nt" else "clear")
 
