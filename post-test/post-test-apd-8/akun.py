@@ -30,7 +30,7 @@ def registrasi():
 
 
 def login():
-    from menu import menu_admin, menu_user, menu_utama  # ✅ import lokal, biar gak bentrok
+    from menu import menu_admin, menu_user, menu_utama
     clear()
     print("=== LOGIN ===")
     uname = input("Username: ")
