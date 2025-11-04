@@ -1,0 +1,28 @@
+# x = 42
+# def fungsi():
+#     x = 10
+#     y = 20
+#     z = 30
+#     print(globals()['x'])
+#     print(locals()['x'])
+#     print(locals())
+# fungsi()
+
+
+# import random
+# print(random.randint(1, 5))
+# pilih_acak = ["pisang", "rambutan", "manggis"]
+# acak = "admin"
+# print(random.choice(pilih_acak))
+# print(random.choice(acak))
+
+# kumpulan_angka = "1234567890"
+# hasil = ""
+# for i in range(4):
+#     hasil += random.choice(kumpulan_angka)
+# print(hasil)
+
+# acak_kartu = ["1 wajik", "3 wajik", "5 wajik"]
+# random.shuffle(acak_kartu)
+# print(acak_kartu)
+
